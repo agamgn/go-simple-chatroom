@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Agamgn Chat Room</title>
+    <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+    <link href="/static/css/bootstrap4.1.0.min.css" rel="stylesheet">
+    <script src="/static/js/bootstrap4.1.0.min.js"></script>
+    <script src="/static/js/jquery-3.2.1.min.js"></script>
+    <style>
+        html, body {
+            background-color: #f5f5f5;
+        }
+    </style>
+</head>
+
+<body>
+<div class="text-center shadow py-5 px-2 bg-white rounded" style="margin: 10% 20% 0 20%;">
+    <h1 style="font-size:4vw;">Welcome to Simple Chat Room</h1>
+    <div class="row mt-5">
+        <form class="form-inline container" action="/Room">
+            <div class="input-group" style="margin:0 auto;">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">
+                        <i class="fa fa-user"></i>
+                    </span>
+                </div>
+                <input type="text" class="form-control" name="name" placeholder="input your name">
+                <div class="input-group-append">
+                    <button class="btn btn-outline-secondary" type="submit">Start</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>
