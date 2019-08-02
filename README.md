@@ -1,7 +1,7 @@
 # go-simple-chatroom
 beego实现的简单聊天室
 
-> beego实现的简单聊天室功能，练习go的时候制作
+> beego实现的简单聊天室功能，采用websocket，练习go的时候制作
 
 ### 效果图
 
